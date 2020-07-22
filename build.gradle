@@ -39,5 +39,5 @@ jacocoTestReport {
 }
 
 jacoco {
-    reportsDir = file("coverage")
+    reportsDir = file("docs")
 }
