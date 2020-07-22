@@ -32,3 +32,10 @@ tokens/
 
 # Ignore Gradle build output directory
 build/
+
+# JaCoCo
+coverage/test/html/default
+coverage/test/html/jacoco-resources
+coverage/test/html/models
+coverage/test/html/jacoco-sessions.html
+!coverage/test/html/index.html

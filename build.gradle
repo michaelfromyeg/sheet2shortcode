@@ -7,6 +7,7 @@
 
 apply plugin: 'java'
 apply plugin: 'application'
+apply plugin: 'jacoco'
 
 mainClassName = 'Main'
 sourceCompatibility = 1.8
@@ -30,4 +31,13 @@ test {
   testLogging {
     events "passed", "skipped", "failed"
   }
+  finalizedBy jacocoTestReport // report is always generated after tests run
+}
+
+jacocoTestReport {
+    dependsOn test // tests are required to run before generating the report
+}
+
+jacoco {
+    reportsDir = file("coverage")
 }
