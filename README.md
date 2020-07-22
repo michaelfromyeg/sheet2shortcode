@@ -17,6 +17,12 @@ This project uses Google's Checks for linting. In VS Code, right-click on the `s
 
 Auto check must be enabled in your VS Code settings.
 
+Here's an example of the output.
+
+![Inputting the shortcode into a WordPress block](images/wp-editor.png)
+
+![Seeing the results on the page](images/wp-onpage.png)
+
 ## Road map
 
 - Add more extensibility for other (csv) file structures.

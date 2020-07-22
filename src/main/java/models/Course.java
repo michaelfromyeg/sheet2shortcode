@@ -98,7 +98,9 @@ public class Course {
    * @return is prof has responded to survey, and course changes do not contain "TBD"
    */
   public boolean hasChanges() {
-    return this.hasResponded && !this.courseChanges.contains("TBD");
+    return this.hasResponded 
+        && !this.courseChanges.contains("TBD") 
+        && !this.courseChanges.equals("\"");
   }
 
   /**
@@ -115,13 +117,14 @@ public class Course {
    */
   public String toOutput() {
     String result = "";
+    result += "<p>";
     result += String.format("<b>%s %d</b>\n", this.courseName, this.courseNumber);
     result += String.format("<i>%s</i>\n", this.profName);
     if (this.courseChanges.contains(this.courseName)) {
       System.out.println(String.format("Flag: %s contains its name in its description!", 
           this.courseName));
     }
-    result += this.courseChanges + "\n";
+    result += this.courseChanges + "</p>\n";
     return result;
   }
 

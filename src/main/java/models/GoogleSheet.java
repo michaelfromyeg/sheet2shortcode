@@ -102,7 +102,7 @@ public class GoogleSheet {
       courseNumber = -1;
     }
 
-    final String profName = formatString(String.valueOf(row.get(1)));
+    final String profName = normalizeProfName(formatString(String.valueOf(row.get(1))));
     final boolean hasResponded = Boolean.valueOf(String.valueOf(row.get(2)));
     final String courseChanges = formatString(String.valueOf(row.get(3)));
     final String profEmail = formatString(String.valueOf(row.get(4)));
@@ -116,6 +116,21 @@ public class GoogleSheet {
    */
   private static String formatString(final String s) {
     return s.replace("\n", "").replace("\r", "");
+  }
+
+  /**
+   * Reformat professor name strings as Firstname Lastname.
+   * @param s the original professor name
+   * @return a string in the form Firstname LastName
+   */
+  private static String normalizeProfName(String s) {
+    if (!s.contains(",")) {
+      return s;
+    }
+    
+    String[] name = s.split(",");
+    String formattedName = name[1] + " " + name[0];
+    return formattedName.trim();
   }
 
   /**
@@ -166,7 +181,7 @@ public class GoogleSheet {
     for (final Course c : courses) {
       if (c.hasChanges() && c.hasCourseNumber()) {
         result += c.toOutput();
-        result += "<br />\n";
+        result += "<p></p>\n";
       }
     }
     return result;
