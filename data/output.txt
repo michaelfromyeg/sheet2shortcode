@@ -31,7 +31,7 @@ Lectures in ELEC 402 will be held via virtual whiteboard and PowerPoint. In orde
 As we adapt to remote learning, several changes are being introduced to ELEC 411. Firstly, the course is adopting a flipped classroom format and placing greater emphasis on guided discussions during class time. Secondaly, ELEC 411 is adopting a new course textbook: 'Frank Gross, Smart Antennas with Matlab, 2nd ed, McGraw-Hill, 2015.' Thirdly, the course syllabus is being upgraded to include new material on 5G wireless, spectrum management and smart antennas. Finally, the course instructors are exploring the possibility of having students conduct antenna projects remotely using an inexpensive nanoVNA.
 <br />
 <b>ELEC 421</b>
-<i>Rafeef Garbi (n»e Abugharbieh)</i>
+<i>Rafeef Garbi (n√àe Abugharbieh)</i>
 Lectures and tutorials in ELEC 421 will be held mostly via Collaborate Ultra and the screen sharing functionality. You can expect some interactive synchronous sessions, though recordings will be available. With regards to software, MATLAB Online will be used for coursework.  Lab work will be conducted without a significant amount of difference to a usual school year. The weighting will be different than a typical semester. The weight of exams will be shifted towards hands-on term project and regular course assignments.
 <br />
 <b>ELEC 431</b>
@@ -39,7 +39,7 @@ Lectures and tutorials in ELEC 421 will be held mostly via Collaborate Ultra and
 Lectures in ELEC 431 will be held mostly asynchronously, based on lecture notes which will be posted. Course assessment will include two closed-book midterms and one open-book final exam. Problem sets will be posted every week. Although the problems sets are not marked, they are important to improve understanding of the course materials. Problems on the midterms will be similar to those on problem sets and examples discussed in the course. TAs will be present to assist with learning and an office hour schedule will be posted in September.
 <br />
 <b>ELEC 453</b>
-<i>JosÈ MartÌ</i>
+<i>Jos√© Mart√≠</i>
 The course will be using Zoom to host the lectures and tutorial during the week.  There will be 2 midterms and a project during the semester. Grading will be flexible, weighing either the midterms and project or the final exam more heavily depending on the student marks. Proctoring of exams will be done through Zoom or another means of online proctoring.
 <br />
 <b>ELEC 462</b>
@@ -80,7 +80,7 @@ Lectures will be made available on Canvas on a scheduled basis and will be suppl
 <br />
 <b>CPEN 422</b>
 <i>Mesbah, Ali</i>
-Lectures will contain a mix of activities and explanations to help keep everyone engaged. Assignments will be sometimes more concrete with a ìrightî answer, and others will be more open-ended that will involve exploration and creativity with code. For labs, youíll use GitHub to submit work before given deadlines. The TAís will grade work via running tests on the GitHub code.
+Lectures will contain a mix of activities and explanations to help keep everyone engaged. Assignments will be sometimes more concrete with a ‚Äúright‚Äù answer, and others will be more open-ended that will involve exploration and creativity with code. For labs, you‚Äôll use GitHub to submit work before given deadlines. The TA‚Äôs will grade work via running tests on the GitHub code.
 <br />
 <b>CPEN 481</b>
 <i>Carmichael, Jeff</i>
