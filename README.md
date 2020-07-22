@@ -27,6 +27,8 @@ Here's an example of the output.
 
 Run all tests with `gradle test`. Coverage is fairly poor right now, but I hope to improve that soon!
 
+See the current coverage report [here](https://michaelfromyeg.github.io/sheet2shortcode/test/html/).
+
 ## Road map
 
 - Add more extensibility for other (csv) file structures.
