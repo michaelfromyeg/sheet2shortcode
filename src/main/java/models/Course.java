@@ -117,6 +117,10 @@ public class Course {
     String result = "";
     result += String.format("<b>%s %d</b>\n", this.courseName, this.courseNumber);
     result += String.format("<i>%s</i>\n", this.profName);
+    if (this.courseChanges.contains(this.courseName)) {
+      System.out.println(String.format("Flag: %s contains its name in its description!", 
+          this.courseName));
+    }
     result += this.courseChanges + "\n";
     return result;
   }
