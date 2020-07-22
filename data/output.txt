@@ -1,6 +1,38 @@
-[tabs][tab title=OTHER]<b>MECH 221</b>
-<i>Robin Turner</i>
-Professor Turner will be teaching the electrical engineering portion of the course. All the lectures and tutorials will be delivered on-line, as well as 3 circuit analysis labs (and accompanying lectures).  The on-line labs will be held in such a way to mimic doing the lab in real person through video footage. More information will be provided by the Mech 2 program at a later date.
+[tabs][tab title=CPEN]<b>CPEN 281</b>
+<i>Kerr, Randall</i>
+Per my email, seems like he won't be teaching this fall
+<br />
+<b>CPEN 281</b>
+<i>Qi, Estella Hongxing</i>
+CPEN 281 is a web-oriented technical communication course, blending synchronous and asynchronous leaning in a flipped classroom. The instructional material is posted on Canvas for students to study and review the course content; Discussion Board is used for peer-review of assignment drafts; the revised assignments are submitted to Assignment Dropbox for grading. The class meet via Collaborate Ultra for lectures, activities, discussions, and presentations. Office hours are also held via Collaborate Ultra for questions and answers. The final exam is administered using Proctorio via Canvas.
+<br />
+<b>CPEN 321</b>
+<i>Rubin, Julia</i>
+CPEN 321 will have interactive lectures where you can expect in-class mini-assignments and problems to work on individually or with a partner. There will be a blend of synchronous and asynchronous activities. Project groups will work with a TA who will mentor them throughout the course, monitor the deliverables, and provide continuous and timely feedback on their work.
+<br />
+<b>CPEN 333</b>
+<i>Davies, Paul</i>
+Labs will be run as close as possible as per usual during Winter 2020. All dates, goals and objectives will be described on Canvas. Labs will be submitted via Canvas and graded by TAs. CPEN 333 is a programming course that uses Visual Studio and Visual Paradigm UML tools which are free to download and use. There will also be holding weekly meetings on-line, similar to a drop in tutorial if you have questions.
+<br />
+<b>CPEN 400</b>
+<i>Quinton, Brad</i>
+In the coming term, CPEN 400D will extend many of the online friendly practices that were already a part of the course in the past. There will be 6 assignments (roughly one every two weeks). These assignments were already designed to be completed completely online. By leveraging JupyterHub as a backend, the assignments can be accessed, completed, tested and submitted via any web browser. As in the past, all lectures will be recorded and posted. This term live lectures will be presented using Zoom instead of in-person and will feature interactive, real-time quizzes (for fun, not for marks...). Finally, TAs will host weekly "office hours" sessions via Zoom to help with assignments and clarifications of any lecture material.
+<br />
+<b>CPEN 412</b>
+<i>Davies, Paul</i>
+Labs will be run as close as possible as per usual during Winter 2020. All dates, goals and objectives will be described on Canvas. Labs will be submitted via Canvas and graded by TAs. CPEN 412 labs will require a DE1SoC board. If you do not yet own one, UBC will provide information shortly regarding purchase and shipping. You will also require some "chips" which we can purchase and mail out. There will also be holding weekly meetings on-line, similar to a drop in tutorial if you have questions.
+<br />
+<b>CPEN 421</b>
+<i>Patrick Conroy</i>
+Lectures will be made available on Canvas on a scheduled basis and will be supplemented with real-time and offline Q&A sessions, results made available on Canvas. Exams will be open book and offered for the usual contiguous duration but available non-invigilated anytime in a 24-hour period; exams will be calibrated to be more difficult than if they were invigilated and closed book. Assignments will probably be fewer and larger, covering multiple lesson elements.
+<br />
+<b>CPEN 422</b>
+<i>Mesbah, Ali</i>
+Lectures will contain a mix of activities and explanations to help keep everyone engaged. Assignments will be sometimes more concrete with a “right” answer, and others will be more open-ended that will involve exploration and creativity with code. For labs, you’ll use GitHub to submit work before given deadlines. The TA’s will grade work via running tests on the GitHub code.
+<br />
+<b>CPEN 481</b>
+<i>Carmichael, Jeff</i>
+CPEN 481 will be moving away from a course structure that heavily emphasizes the exams, focusing more on assignments and quizzes, so that learning is happening along the way. It'll also be incorporating more 'real life' examples. This course hasn't been too heavily impacted by the move to remote learning. We use Piazza a lot for dialogue and questions, and also are very interactive during lectures, using the chat window as a way to keep students up to speed and engaged.
 <br />
 [/tab][tab title=ELEC]<b>ELEC 204</b>
 <i>Mirabbasi, Shahriar</i>
@@ -50,42 +82,6 @@ Lectures in ELEC 462 will be based on PowerPoint presentations that will be anno
 <i>Karen Cheung</i>
 Lectures will be held mostly asynchronously. The lecture notes will be provided online. Throughout the lectures, you will go over the topics presented in the slides and complete short embedded quiz questions. The lecture material will be supplemented with video clips illustrating course concepts. There is no required software for this course. An office hour and synchronous tutorial schedule will be communicated clearly via Canvas in September. Course assessment will include midterm exams, which will have an oral examination component, and a final exam. Problem sets will be posted approximately every other week. Although the problems sets are not a significant portion of the overall grade, they are important to improve understanding of the course materials. Problems on the midterms will be similar to those on problem sets and examples discussed in the course.
 <br />
-[/tab][tab title=CPEN]<b>CPEN 281</b>
-<i>Kerr, Randall</i>
-Per my email, seems like he won't be teaching this fall
-<br />
-<b>CPEN 281</b>
-<i>Qi, Estella Hongxing</i>
-CPEN 281 is a web-oriented technical communication course, blending synchronous and asynchronous leaning in a flipped classroom. The instructional material is posted on Canvas for students to study and review the course content; Discussion Board is used for peer-review of assignment drafts; the revised assignments are submitted to Assignment Dropbox for grading. The class meet via Collaborate Ultra for lectures, activities, discussions, and presentations. Office hours are also held via Collaborate Ultra for questions and answers. The final exam is administered using Proctorio via Canvas.
-<br />
-<b>CPEN 321</b>
-<i>Rubin, Julia</i>
-CPEN 321 will have interactive lectures where you can expect in-class mini-assignments and problems to work on individually or with a partner. There will be a blend of synchronous and asynchronous activities. Project groups will work with a TA who will mentor them throughout the course, monitor the deliverables, and provide continuous and timely feedback on their work.
-<br />
-<b>CPEN 333</b>
-<i>Davies, Paul</i>
-Labs will be run as close as possible as per usual during Winter 2020. All dates, goals and objectives will be described on Canvas. Labs will be submitted via Canvas and graded by TAs. CPEN 333 is a programming course that uses Visual Studio and Visual Paradigm UML tools which are free to download and use. There will also be holding weekly meetings on-line, similar to a drop in tutorial if you have questions.
-<br />
-<b>CPEN 400</b>
-<i>Quinton, Brad</i>
-In the coming term, CPEN 400D will extend many of the online friendly practices that were already a part of the course in the past. There will be 6 assignments (roughly one every two weeks). These assignments were already designed to be completed completely online. By leveraging JupyterHub as a backend, the assignments can be accessed, completed, tested and submitted via any web browser. As in the past, all lectures will be recorded and posted. This term live lectures will be presented using Zoom instead of in-person and will feature interactive, real-time quizzes (for fun, not for marks...). Finally, TAs will host weekly "office hours" sessions via Zoom to help with assignments and clarifications of any lecture material.
-<br />
-<b>CPEN 412</b>
-<i>Davies, Paul</i>
-Labs will be run as close as possible as per usual during Winter 2020. All dates, goals and objectives will be described on Canvas. Labs will be submitted via Canvas and graded by TAs. CPEN 412 labs will require a DE1SoC board. If you do not yet own one, UBC will provide information shortly regarding purchase and shipping. You will also require some "chips" which we can purchase and mail out. There will also be holding weekly meetings on-line, similar to a drop in tutorial if you have questions.
-<br />
-<b>CPEN 421</b>
-<i>Patrick Conroy</i>
-Lectures will be made available on Canvas on a scheduled basis and will be supplemented with real-time and offline Q&A sessions, results made available on Canvas. Exams will be open book and offered for the usual contiguous duration but available non-invigilated anytime in a 24-hour period; exams will be calibrated to be more difficult than if they were invigilated and closed book. Assignments will probably be fewer and larger, covering multiple lesson elements.
-<br />
-<b>CPEN 422</b>
-<i>Mesbah, Ali</i>
-Lectures will contain a mix of activities and explanations to help keep everyone engaged. Assignments will be sometimes more concrete with a “right” answer, and others will be more open-ended that will involve exploration and creativity with code. For labs, you’ll use GitHub to submit work before given deadlines. The TA’s will grade work via running tests on the GitHub code.
-<br />
-<b>CPEN 481</b>
-<i>Carmichael, Jeff</i>
-CPEN 481 will be moving away from a course structure that heavily emphasizes the exams, focusing more on assignments and quizzes, so that learning is happening along the way. It'll also be incorporating more 'real life' examples. This course hasn't been too heavily impacted by the move to remote learning. We use Piazza a lot for dialogue and questions, and also are very interactive during lectures, using the chat window as a way to keep students up to speed and engaged.
-<br />
 [/tab][tab title=GRAD]<b>CPEN 502</b>
 <i>Sarbjit Sarkaria</i>
 CPEN 502 is a practical introduction to AI, focusing particularly on algorithms to train neural networks and their application in reinforcement learning. The course is assessed entirely via a 3-part coursework, to be submitted via Canvas. This year, all lectures and tutorials will be hosted using Collaborate Ultra and the instructor plans to hold virtual office hours at set times during the week via url.live.com. As in previous years Piazza will be used for communication. Student engagement is strongly encouraged and working in groups, though not mandated, is welcome.
@@ -117,5 +113,9 @@ The course is being adapted to an edX format so it can be taken by UBC, SFU, and
 <b>ELEC 523</b>
 <i>Siamak Najarian</i>
 All lectures and office hours will be held through video conferencing using Collaborate Ultra. Students can access Collaborate Ultra within Canvas, which is the learning management system for this course. Lectures will be held synchronously. They will be recorded and then uploaded on Canvas. Lectures in this web-oriented course will be based on PowerPoint presentations that will be annotated in our online classes. A custom course materials package will be made available to students and can be obtained from UBC bookstore. The course package consists of class lecture notes slides. At the beginning of the Fall term, more details on the course will be provided through Canvas.
+<br />
+[/tab][tab title=OTHER]<b>MECH 221</b>
+<i>Robin Turner</i>
+Professor Turner will be teaching the electrical engineering portion of the course. All the lectures and tutorials will be delivered on-line, as well as 3 circuit analysis labs (and accompanying lectures).  The on-line labs will be held in such a way to mimic doing the lab in real person through video footage. More information will be provided by the Mech 2 program at a later date.
 <br />
 [/tab][/tabs]

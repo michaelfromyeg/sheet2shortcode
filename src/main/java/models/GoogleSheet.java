@@ -24,9 +24,9 @@ import java.nio.charset.StandardCharsets;
 import java.security.GeneralSecurityException;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class GoogleSheet {
   private static final String APPLICATION_NAME = "Google Sheets API Java Quickstart";
@@ -48,7 +48,7 @@ public class GoogleSheet {
   public static Map<String, List<Course>> formatValues(final List<List<Object>> values) {
       
     // Initialize lists to be grouped into tabs
-    final Map<String, List<Course>> courses = new HashMap<>();
+    final Map<String, List<Course>> courses = new TreeMap<>();
     courses.put("ELEC", new ArrayList<>());
     courses.put("CPEN", new ArrayList<>());
     courses.put("GRAD", new ArrayList<>());
