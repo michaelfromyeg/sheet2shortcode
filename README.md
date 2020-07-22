@@ -23,6 +23,10 @@ Here's an example of the output.
 
 ![Seeing the results on the page](images/wp-onpage.png)
 
+### Tests
+
+Run all tests with `gradle test`. Coverage is fairly poor right now, but I hope to improve that soon!
+
 ## Road map
 
 - Add more extensibility for other (csv) file structures.

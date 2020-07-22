@@ -1,0 +1,11 @@
+{
+  "configurations": [
+      {
+          "type": "java",
+          "name": "CodeLens (Launch) - sheet2shortcode",
+          "request": "launch",
+          "mainClass": "com.sheet2shortcode.main",
+          "projectName": "sheet2shortcode"
+      }
+  ]
+}

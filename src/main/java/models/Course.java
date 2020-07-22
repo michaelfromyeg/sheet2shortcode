@@ -66,6 +66,14 @@ public class Course {
     }
   }
 
+  public String getProfName() {
+    return this.profName;
+  }
+
+  public String getProfEmail() {
+    return this.profEmail;
+  }
+
   public String getCourseName() {
     return this.courseName;
   }
