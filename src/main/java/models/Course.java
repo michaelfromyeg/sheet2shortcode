@@ -3,6 +3,7 @@ package models;
 public class Course {
   private String courseName;
   private int courseNumber;
+  private String courseOption; // a letter, A-Z that reflects a course variant, ex., CPEN400'D'
   private boolean isGrad;
 
   private String profName;
@@ -15,9 +16,10 @@ public class Course {
    * Constructs a course based on a course name and number (ex., MATH 101)
    * Defaults profName and profEmail to blank, hasResponded to false, courseChanges to blank
    */
-  public Course(String courseName, int courseNumber) {
+  public Course(String courseName, int courseNumber, String courseOption) {
     this.courseName = courseName;
     this.courseNumber = courseNumber;
+    this.courseOption = courseOption;
     this.profName = "";
     this.profEmail = "";
     this.hasResponded = false;
@@ -30,9 +32,11 @@ public class Course {
    * along with profName and profEmail
    * Defaults hasResponded to false, courseChanges to blank
    */
-  public Course(String courseName, int courseNumber, String profName, String profEmail) {
+  public Course(String courseName, int courseNumber, String courseOption,
+      String profName, String profEmail) {
     this.courseName = courseName;
     this.courseNumber = courseNumber;
+    this.courseOption = courseOption;
     this.profName = profName;
     this.profEmail = profEmail;
     this.hasResponded = false;
@@ -43,10 +47,11 @@ public class Course {
   /**
    * Construct a course based on all fields given.
    */
-  public Course(String courseName, int courseNumber, String profName, 
+  public Course(String courseName, int courseNumber, String courseOption, String profName, 
       String profEmail, boolean hasResponded, String courseChanges) {
     this.courseName = courseName;
     this.courseNumber = courseNumber;
+    this.courseOption = courseOption;
     this.profName = profName;
     this.profEmail = profEmail;
     this.hasResponded = hasResponded;
@@ -124,22 +129,39 @@ public class Course {
    * @return the formatting string for the shortcode
    */
   public String toOutput() {
+    checkCourseChangesQuality(this.courseName + " " + this.courseNumber + this.courseOption,
+        this.courseChanges);
     String result = "";
     result += "<p>";
-    result += String.format("<b>%s %d</b>\n", this.courseName, this.courseNumber);
+    result += String.format("<b>%s %d%s</b>\n", this.courseName, this.courseNumber,
+        this.courseOption);
     result += String.format("<i>%s</i>\n", this.profName);
-    if (this.courseChanges.contains(this.courseName)) {
-      System.out.println(String.format("Flag: %s contains its name in its description!", 
-          this.courseName));
-    }
     result += this.courseChanges + "</p>\n";
     return result;
   }
 
+  private void checkCourseChangesQuality(String courseCode, String courseChanges) {
+
+    // Check course name is not within description
+    if (courseChanges.contains(courseCode)) {
+      System.out.println(String.format("Flag: %s contains its name in its description!", 
+          courseCode));
+    }
+
+    // Filter certain strings from wording (remote learning is preferred)
+    final String[] badStrings = {"online", "digital", "virtual"};
+    for (String bs : badStrings) {
+      if (courseChanges.contains(bs)) {
+        System.out.println(String.format("Flag: %s contains %s in its description!", 
+            courseCode, bs));
+      }
+    }
+  }
+
   @Override 
   public String toString() {
-    String message = String.format("%s %d taught by %s <%s>", 
-        this.courseName, this.courseNumber, this.profName, this.profEmail);
+    String message = String.format("%s %d%s taught by %s <%s>", 
+        this.courseName, this.courseNumber, this.courseOption, this.profName, this.profEmail);
     return message; 
   }
 }

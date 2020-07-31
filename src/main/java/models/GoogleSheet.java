@@ -102,12 +102,22 @@ public class GoogleSheet {
       courseNumber = -1;
     }
 
+    String courseOption = "";
+    if (rawCourseValue.length() > 7) {
+      courseOption = rawCourseValue.substring(7, 8);
+      if (courseOption.equals(".")) {
+        courseOption = "";
+      }
+    }
+    
+
     final String profName = normalizeProfName(formatString(String.valueOf(row.get(1))));
     final boolean hasResponded = Boolean.valueOf(String.valueOf(row.get(2)));
     final String courseChanges = formatString(String.valueOf(row.get(3)));
     final String profEmail = formatString(String.valueOf(row.get(4)));
 
-    return new Course(courseName, courseNumber, profName, profEmail, hasResponded, courseChanges);
+    return new Course(courseName, courseNumber, courseOption, profName,
+        profEmail, hasResponded, courseChanges);
   }
 
   /**
