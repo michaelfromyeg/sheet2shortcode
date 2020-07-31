@@ -1,4 +1,8 @@
-[tabs][tab title=CPEN]<p><b>CPEN 281</b>
+[tabs][tab title=CPEN]<p><b>CPEN 221</b>
+<i>Sathish Gopalakrishnan</i>
+This course will involve a mix of asynchronous activities and interactive sessions; synchronous activities will be repeated at different times to accompany international students. There will be short overview videos to accompany readings. A variety of new tools are being adopted to enhance the remote learning experience.</p>
+<p></p>
+<p><b>CPEN 281</b>
 <i>Estella Hongxing Qi</i>
 This technical communication course is already web-oriented, blending synchronous and asynchronous leaning in a flipped classroom. The instructional material is posted on Canvas for students to study and review the course content; Discussion Board is used for peer-review of assignment drafts; the revised assignments are submitted to Assignment Dropbox for grading. The class meet via Collaborate Ultra for lectures, activities, discussions, and presentations. Office hours are also held via Collaborate Ultra for questions and answers. The final exam is administered using Proctorio via Canvas.</p>
 <p></p>
@@ -15,8 +19,16 @@ Lectures will be held via video conferencing tools such as Collaborate Ultra or 
 Labs will be run as close as possible as per usual during Winter 2020. All dates, goals and objectives will be described on Canvas. Labs will be submitted via Canvas and graded by TAs. This course uses Visual Studio and Visual Paradigm UML tools which are free to download and use. There will also be holding weekly meetings on-line, similar to a drop in tutorial if you have questions.</p>
 <p></p>
 <p><b>CPEN 400</b>
+<i>Karthik Pattabiraman</i>
+This course will rely on GitHub for remote collaboration, and likewise there will be lots of hands-on work, with the end goal of building a complete modern web application. Zoom will likely be used for lecture delivery, and lectures will be recorded. Class participation is essential for this course.</p>
+<p></p>
+<p><b>CPEN 400</b>
 <i>Brad Quinton</i>
-In the coming term, this course will extend many of the online friendly practices that were already a part of the course in the past. There will be 6 assignments (roughly one every two weeks). These assignments were already designed to be completed completely online. By leveraging JupyterHub as a backend, the assignments can be accessed, completed, tested and submitted via any web browser. As in the past, all lectures will be recorded and posted. This term live lectures will be presented using Zoom instead of in-person and will feature interactive, real-time quizzes (for fun, not for marks...). Finally, TAs will host weekly "office hours" sessions via Zoom to help with assignments and clarifications of any lecture material.</p>
+In the coming term, this course will extend many of the remote friendly practices that were already a part of the course in the past. There will be 6 assignments (roughly one every two weeks). These assignments were already designed to be completed completely remotely. By leveraging JupyterHub as a backend, the assignments can be accessed, completed, tested and submitted via any web browser. As in the past, all lectures will be recorded and posted. This term live lectures will be presented using Zoom instead of in-person and will feature interactive, real-time quizzes (for fun, not for marks...). Finally, TAs will host weekly "office hours" sessions via Zoom to help with assignments and clarifications of any lecture material.</p>
+<p></p>
+<p><b>CPEN 411</b>
+<i>Prashant Nair</i>
+This course will use GitHub Classrooms to collaborate on and submit code. Canvas will be used as the central communication tool. Lecture format is still being decided, though it is likely Collaborate Ultra will be used.</p>
 <p></p>
 <p><b>CPEN 412</b>
 <i>Paul Davies</i>
@@ -30,6 +42,10 @@ Lectures will be made available on Canvas on a scheduled basis and will be suppl
 <i>Ali Mesbah</i>
 Lectures will contain a mix of activities and explanations to help keep everyone engaged. Assignments will be sometimes more concrete with a “right” answer, and others will be more open-ended that will involve exploration and creativity with code. For labs, you’ll use GitHub to submit work before given deadlines. The TA’s will grade work via running tests on the GitHub code.</p>
 <p></p>
+<p><b>CPEN 442</b>
+<i>Konstantine Beznosov</i>
+Lectures will be streamed and conducted in a flipped classroom style. Grading consists of numerous quizzes, finals, and a term project. There will also be tutorials to help guide learning.</p>
+<p></p>
 <p><b>CPEN 481</b>
 <i>Jeff Carmichael</i>
 This course will be moving away from a structure that heavily emphasizes the exams, focusing more on assignments and quizzes, so that learning is happening along the way. It'll also be incorporating more 'real life' examples. This course hasn't been too heavily impacted by the move to remote learning. We use Piazza a lot for dialogue and questions, and also are very interactive during lectures, using the chat window as a way to keep students up to speed and engaged.</p>
@@ -38,29 +54,45 @@ This course will be moving away from a structure that heavily emphasizes the exa
 <i>Paul Lusina</i>
 Many diverse companies were increasingly moving to remote collaboration on projects even before the COVID-19 pandemic. This trend is accelerated due to current social distancing requirements. Capstone will equip students with remote collaboration best practices to serve them during their project and as they transition to the next phase of their career. Prototyping a physical product is a tried and true way of validating a design. However simulation packages are increasing in sophistication and are able to predict many types of design failures quickly in a cost effective way. The Capstone course will guide students on how to build validation into the design process using ECE's wide range of industry leading simulation software.</p>
 <p></p>
-[/tab][tab title=ELEC]<p><b>ELEC 204</b>
+[/tab][tab title=ELEC]<p><b>ELEC 201</b>
+<i>Jesus Calvino-Fraga</i>
+Lectures and exams will be conducted remotely.  Laboratories will be remote also, which is a much bigger challenge.  For this reason we are preparing a couple of lab kits that will allow you to do all the required experiments at home.  One kit contains all the needed components, such as resistors, capacitors, transistors, etc. as well as tools, bread boards, and wires. The other kit includes a multi-meter, as well as an USB oscilloscope and a signal generator designed and built specifically for the course.  You will be notified soon on how to buy the kits and get them delivered.</p>
+<p></p>
+<p><b>ELEC 204</b>
 <i>Shahriar Mirabbasi</i>
-Lectures will be held via a video conferencing tool such as Collaborate Ultra or Zoom. The lecture notes are provided online and throughout the lectures, you will go over the topics presented in the slides and complete the examples. There is no required software in this course. Tutorials and office hours will be held by both myself and the TAs. Class, tutorial, and office hours schedule and further details will be communicated clearly via Canvas, when the semester begins.</p>
+Lectures will be held via a video conferencing tool such as Collaborate Ultra or Zoom. The lecture notes are provided and throughout the lectures, you will go over the topics presented in the slides and complete the examples. There is no required software in this course. Tutorials and office hours will be held by both myself and the TAs. Class, tutorial, and office hours schedule and further details will be communicated clearly via Canvas, when the semester begins.</p>
 <p></p>
 <p><b>ELEC 221</b>
 <i>Lutz Lampe</i>
-Lectures in this course will be held online and course material will be presented by Professor Lampe on a virtual whiteboard, akin to the in-person experience. There will be tutorials that will help you develop problem solving skills. This will be complemented by short project assignments. A reduced weight final exam will be held.</p>
+Lectures in this course will be held remotely and course material will be presented by Professor Lampe on a device. There will be tutorials that will help you develop problem solving skills. This will be complemented by short project assignments. A reduced weight final exam will be held.</p>
 <p></p>
 <p><b>ELEC 311</b>
 <i>Matt Yedlin</i>
 There will be no lecturing in this class. Asynchronous activities will include watching selections taken from the video library available on Canvas, and also doing assignments and quizzes. Synchronous activities include problem solving in groups, detailed discussions and three major assessment tests. Class interactivity provided through polling and discussions. Emphasis will be on course content and community. Conference software will be used for delivery. Appropriate proctoring software and/or communication will be used as needed.</p>
 <p></p>
+<p><b>ELEC 315</b>
+<i>John Madden</i>
+This course provides fundamental knowledge about semiconductors, metals, magnetic materials and insulators that make up all the devices we use. The course is well suited for remote delivery. It will be hosted on Canvas, where video lectures with concurrent participation quizzes and weekly live tutorial sessions will be hosted. We will make use of PhET simulations. For tutorials we will use Collaborate Ultra or similar, moderated by the instructor and/or TAs. Instructional material will be posted on Canvas for students to study and review content. Assignments will be submitted online using combined automatic grading (Canvas or WebWork) and solution upload. Proctoring of exams will be done through Zoom or another means. A final project may supplement the final exam. We plan to take advantage of discussion boards for additional student/TA/instructor interaction and support.</p>
+<p></p>
+<p><b>ELEC 321</b>
+<i>Lele Wang</i>
+Lectures will be recorded and in a flipped classroom style. No software or hardware is required.</p>
+<p></p>
 <p><b>ELEC 341</b>
 <i>Leo Stocco</i>
 The course has a "flipped classroom" format with readings from the text book, posted slides, and other resources, and with real-time Q&A and examples solved in Zoom sessions. The grade is split between open-book midterm and final exams, and weekly homework assignments which are submitted as PowerPoint slide decks. Homework problems will focus on solving control problems using Matlab and Simulink.</p>
 <p></p>
+<p><b>ELEC 342</b>
+<i>Juri Jatskevich</i>
+The course will be delivered with possible combinations of asynchronous and synchronous ways of delivering lectures, labs, and tutorials. The assignments will be based on the course textbook problems. The course material will be distributed through Canvas. The quizzes and exams will be conducted through Canvas using the Proctorio system for ensuring the identity of the student taking the test and invigilation. Therefore, the students are required to have a computer with a webcam. The students are expected to use some computing programs, e.g. Matlab and Simulink for working on their assignments and laboratory reports.</p>
+<p></p>
 <p><b>ELEC 401</b>
 <i>Shahriar Mirabbasi</i>
-Lectures will be held via a video conferencing tool such as Collaborate Ultra or Zoom. The lecture notes are provided online and throughout the lectures, you will go over the topics presented in the slides and complete the examples. Please note that for this course you will need access to a circuit design software for some assignments and the course projects. Tutorials and office hours will be held by both myself and the TAs. Class, tutorial, and office hours schedule and further details will be communicated clearly via Canvas, when the semester begins.</p>
+Lectures will be held via a video conferencing tool such as Collaborate Ultra or Zoom. The lecture notes will be provided and throughout the lectures, you will go over the topics presented in the slides and complete the examples. Please note that for this course you will need access to a circuit design software for some assignments and the course projects. Tutorials and office hours will be held by both myself and the TAs. Class, tutorial, and office hours schedule and further details will be communicated clearly via Canvas, when the semester begins.</p>
 <p></p>
 <p><b>ELEC 402</b>
 <i>Reza Molavi</i>
-Lectures in this course will be held via virtual whiteboard and PowerPoint. In order to learn the design flow process, and verify the functionality of integrated circuit, we will use standard tools "ModelSim" and "Cadence" (access to tools provided via X2Go and/or SSH to ECE) to design and simulate digital circuits. Professor Molavi is also working with IT to ensure you have a steady connection to the needed software.</p>
+Lectures in this course will be held via device via annotated PowerPoint. In order to learn the design flow process, and verify the functionality of integrated circuit, we will use standard tools "ModelSim" and "Cadence" (access to tools provided via X2Go and/or SSH to ECE) to design and simulate digital circuits. Professor Molavi is also working with IT to ensure you have a steady connection to the needed software.</p>
 <p></p>
 <p><b>ELEC 411</b>
 <i>David Michelson</i>
@@ -74,13 +106,25 @@ Lectures and tutorials in this course will be held mostly via Collaborate Ultra 
 <i>Cyril Leung</i>
 Lectures in this course will be held mostly asynchronously, based on lecture notes which will be posted. Course assessment will include two closed-book midterms and one open-book final exam. Problem sets will be posted every week. Although the problems sets are not marked, they are important to improve understanding of the course materials. Problems on the midterms will be similar to those on problem sets and examples discussed in the course. TAs will be present to assist with learning and an office hour schedule will be posted in September.</p>
 <p></p>
+<p><b>ELEC 442</b>
+<i>Joseph Yan</i>
+This course will be delivered primarily through a flipped-classroom format. Asynchronous activities outside of class times will involve viewings of videos, readings from course notes and homework assignments. During synchronous Zoom-hosted class times, there will be guided activities to clarify concepts. Assessments will be based on homework assignments, class participation, two midterms and a final exam (exams administered through Proctorio). Most homework assignments will require solving problems using Matlab.</p>
+<p></p>
 <p><b>ELEC 453</b>
 <i>José Martí</i>
 The course will be using Zoom to host the lectures and tutorial during the week.  There will be 2 midterms and a project during the semester. Grading will be flexible, weighing either the midterms and project or the final exam more heavily depending on the student marks. Proctoring of exams will be done through Zoom or another means of online proctoring.</p>
 <p></p>
+<p><b>ELEC 461</b>
+<i>Konrad Walus</i>
+Lectures will be given via teleconference and ideally a TA will be available for Q&A in real time. The instructor will record the lectures and make them available to the students to watch afterwards but the there is also a plan to give attendance points for being present as that is the primary means of engaging with students and the lecture material synchronously. The instructor is converting some of the individual assignments into team assignments to encourage community building. There is still a plan to have individual submissions and at least one individual assignment. Additionally, there will be one team design submission around an online or numerical tool of nanoelectronic devices/circuits. Professor Walus plans to reduce the number of lectures where he is presenting and hopefully increase the number of lectures where industry experts are present. He plans to run that part of the course as a fireside chat with experts.</p>
+<p></p>
 <p><b>ELEC 462</b>
 <i>Boris Stoeber</i>
 Lectures in this course will be based on PowerPoint presentations that will be annotated in lecture including mathematical derivations. The lecture material will be supplemented with short live commented video clips illustrating real world fabrication process steps and device operation. In general, lectures will be held synchronously but, will be always be recorded and uploaded. As a part of the course, you will use the mask making software Clewin, which only runs on Windows; if you use Mac or Linux, special arrangements will be made for you to ensure you can take the course.  There will be about 10 assignments, 6 quizzes and a final exam. Synchronous elements will be offered that are suitable for students participating from other time zones.</p>
+<p></p>
+<p><b>ELEC 471</b>
+<i>Robert Rohling</i>
+There will be three lectures each week, and all will be recorded and uploaded. There will be many forms of assessment throughout the course to help guide your learning. Annotated notes will be distributed for revision as well. Tutorials times may be staggered as well to accompany international students; a survey will be conducted to determine optimal times.</p>
 <p></p>
 <p><b>ELEC 473</b>
 <i>Karen Cheung</i>
@@ -110,17 +154,33 @@ Lectures will be held mostly asynchronously. The lecture notes will be provided 
 <i>Mahsa Pourazad</i>
 The course will be delivered online in zoom sessions. The course remains project based where we will have 4 or 5 teams that require team members to collaborate remotely. Access to Westgrid will be provided in case the project is computationally demanding. Hard drives in sanitized bags with video content will be delivered to students if the file sizes for their projects are in TB order. Additional zoom sessions will be scheduled throughout the week to guide teams with their projects. Zoom breakout sessions will be arranged for different teams so I help them with projects and they can also brainstorm. Proposal and final oral presentations will take place using Zoom.</p>
 <p></p>
+<p><b>EECE 549</b>
+<i>Juri Jatskevich</i>
+The course will be using asynchronous and synchronous ways of delivering lectures. The students are expected to use Matlab/Simulink for most of their assignments.</p>
+<p></p>
+<p><b>EECE 554</b>
+<i>Hermann Dommel</i>
+This course will be using Zoom to host the lectures and tutorials. This course will not have mid-term or final exams. Students will work on a project. There will also be assignments, and the final grade will then be based primarily on the project report and also somewhat on the assignments.</p>
+<p></p>
 <p><b>EECE 555</b>
 <i>Sina Chiniforoosh</i>
-Lectures will be conducted online using Collaborate Ultra or Zoom. Lecture material, assignments, quizzes, and exams will be posted on Canvas. There will be 5 assignments, 3 quizzes, one midterm and one final exam. All evaluation will be take-home and submitted through Canvas.</p>
+Lectures will be conducted remotely using Collaborate Ultra or Zoom. Lecture material, assignments, quizzes, and exams will be posted on Canvas. There will be 5 assignments, 3 quizzes, one midterm and one final exam. All evaluation will be take-home and submitted through Canvas.</p>
+<p></p>
+<p><b>EECE 562</b>
+<i>Lele Wang</i>
+Lectures will be recorded and in a flipped classroom style. No software or hardware is required.</p>
 <p></p>
 <p><b>EECE 565</b>
 <i>Vincent Wong</i>
 Lectures will be held via video conferencing tools such as Collaborate Ultra or Zoom. Slides will be posted onto Canvas. Class and office hours schedule as well as further details will be communicated via Canvas, when the semester begins.</p>
 <p></p>
 <p><b>EECE 571</b>
+<i>Sathish Gopalakrishnan</i>
+This course will involve a mix of asynchronous activies and interactive sessions; synchronous activities will be repeated at different times to accompany international students. There will be short overview videos to accompany readings. A variety of new tools are being adopted to enhance the remote learning experience.</p>
+<p></p>
+<p><b>EECE 571</b>
 <i>Karthik Pattabiraman</i>
-This is a seminar-styled research oriented course. The students will read papers every week and will submit reviews via the online system - these will be graded. The class will consist of 1-2 students presenting the papers for that week followed by discussion - this will be done via Zoom. Finally, there's a cumulative group project, which forms a substantial portion of the grade - this will be done online as well with clear deliverables in the form of reports, source code etc. The instructor will meet with the groups periodically.</p>
+This is a seminar-styled research oriented course. The students will read papers every week and will submit reviews which will be graded. The class will consist of 1-2 students presenting the papers for that week followed by discussion - this will be done via Zoom. Finally, there's a cumulative group project, which forms a substantial portion of the grade - this will be done online as well with clear deliverables in the form of reports, source code, and more. The instructor will meet with the groups periodically.</p>
 <p></p>
 <p><b>EECE 571</b>
 <i>Joseph Salfi</i>
@@ -128,7 +188,7 @@ The course is being adapted to an edX format so it can be taken by UBC, SFU, and
 <p></p>
 <p><b>ELEC 523</b>
 <i>Siamak Najarian</i>
-All lectures and office hours will be held through video conferencing using Collaborate Ultra. Students can access Collaborate Ultra within Canvas, which is the learning management system for this course. Lectures will be held synchronously. They will be recorded and then uploaded on Canvas. Lectures in this web-oriented course will be based on PowerPoint presentations that will be annotated in our online classes. A custom course materials package will be made available to students and can be obtained from UBC bookstore. The course package consists of class lecture notes slides. At the beginning of the Fall term, more details on the course will be provided through Canvas.</p>
+All lectures and office hours will be held through video conferencing using Collaborate Ultra. Students can access Collaborate Ultra within Canvas, which is the learning management system for this course. Lectures will be held synchronously. They will be recorded and then uploaded on Canvas. Lectures in this web-oriented course will be based on PowerPoint presentations that will be annotated in our remote classes. A custom course materials package will be made available to students and can be obtained from UBC bookstore. The course package consists of class lecture notes slides. At the beginning of the Fall term, more details on the course will be provided through Canvas.</p>
 <p></p>
 [/tab][tab title=OTHER]<p><b>MECH 221</b>
 <i>Robin Turner</i>
