@@ -18,11 +18,11 @@ Lectures will be held via video conferencing tools such as Collaborate Ultra or 
 <i>Paul Davies</i>
 Labs will be run as close as possible as per usual during Winter 2020. All dates, goals and objectives will be described on Canvas. Labs will be submitted via Canvas and graded by TAs. This course uses Visual Studio and Visual Paradigm UML tools which are free to download and use. There will also be holding weekly meetings on-line, similar to a drop in tutorial if you have questions.</p>
 <p></p>
-<p><b>CPEN 400A</b>
+<p><b>CPEN 400</b>
 <i>Karthik Pattabiraman</i>
 This course will rely on GitHub for remote collaboration, and likewise there will be lots of hands-on work, with the end goal of building a complete modern web application. Zoom will likely be used for lecture delivery, and lectures will be recorded. Class participation is essential for this course.</p>
 <p></p>
-<p><b>CPEN 400D</b>
+<p><b>CPEN 400</b>
 <i>Brad Quinton</i>
 In the coming term, this course will extend many of the remote friendly practices that were already a part of the course in the past. There will be 6 assignments (roughly one every two weeks). These assignments were already designed to be completed completely remotely. By leveraging JupyterHub as a backend, the assignments can be accessed, completed, tested and submitted via any web browser. As in the past, all lectures will be recorded and posted. This term live lectures will be presented using Zoom instead of in-person and will feature interactive, real-time quizzes (for fun, not for marks...). Finally, TAs will host weekly "office hours" sessions via Zoom to help with assignments and clarifications of any lecture material.</p>
 <p></p>
@@ -54,7 +54,11 @@ This course will be moving away from a structure that heavily emphasizes the exa
 <i>Paul Lusina</i>
 Many diverse companies were increasingly moving to remote collaboration on projects even before the COVID-19 pandemic. This trend is accelerated due to current social distancing requirements. Capstone will equip students with remote collaboration best practices to serve them during their project and as they transition to the next phase of their career. Prototyping a physical product is a tried and true way of validating a design. However simulation packages are increasing in sophistication and are able to predict many types of design failures quickly in a cost effective way. The Capstone course will guide students on how to build validation into the design process using ECE's wide range of industry leading simulation software.</p>
 <p></p>
-[/tab][tab title=ELEC]<p><b>ELEC 204</b>
+[/tab][tab title=ELEC]<p><b>ELEC 201</b>
+<i>Jesus Calvino-Fraga</i>
+Lectures and exams will be conducted remotely.  Laboratories will be remote also, which is a much bigger challenge.  For this reason we are preparing a couple of lab kits that will allow you to do all the required experiments at home.  One kit contains all the needed components, such as resistors, capacitors, transistors, etc. as well as tools, bread boards, and wires. The other kit includes a multi-meter, as well as an USB oscilloscope and a signal generator designed and built specifically for the course.  You will be notified soon on how to buy the kits and get them delivered.</p>
+<p></p>
+<p><b>ELEC 204</b>
 <i>Shahriar Mirabbasi</i>
 Lectures will be held via a video conferencing tool such as Collaborate Ultra or Zoom. The lecture notes are provided and throughout the lectures, you will go over the topics presented in the slides and complete the examples. There is no required software in this course. Tutorials and office hours will be held by both myself and the TAs. Class, tutorial, and office hours schedule and further details will be communicated clearly via Canvas, when the semester begins.</p>
 <p></p>
@@ -162,11 +166,19 @@ This course will be using Zoom to host the lectures and tutorials. This course w
 <i>Sina Chiniforoosh</i>
 Lectures will be conducted remotely using Collaborate Ultra or Zoom. Lecture material, assignments, quizzes, and exams will be posted on Canvas. There will be 5 assignments, 3 quizzes, one midterm and one final exam. All evaluation will be take-home and submitted through Canvas.</p>
 <p></p>
+<p><b>EECE 562</b>
+<i>Lele Wang</i>
+Lectures will be recorded and in a flipped classroom style. No software or hardware is required.</p>
+<p></p>
 <p><b>EECE 565</b>
 <i>Vincent Wong</i>
 Lectures will be held via video conferencing tools such as Collaborate Ultra or Zoom. Slides will be posted onto Canvas. Class and office hours schedule as well as further details will be communicated via Canvas, when the semester begins.</p>
 <p></p>
-<p><b>EECE 571P</b>
+<p><b>EECE 571</b>
+<i>Sathish Gopalakrishnan</i>
+This course will involve a mix of asynchronous activies and interactive sessions; synchronous activities will be repeated at different times to accompany international students. There will be short overview videos to accompany readings. A variety of new tools are being adopted to enhance the remote learning experience.</p>
+<p></p>
+<p><b>EECE 571</b>
 <i>Karthik Pattabiraman</i>
 This is a seminar-styled research oriented course. The students will read papers every week and will submit reviews which will be graded. The class will consist of 1-2 students presenting the papers for that week followed by discussion - this will be done via Zoom. Finally, there's a cumulative group project, which forms a substantial portion of the grade - this will be done online as well with clear deliverables in the form of reports, source code, and more. The instructor will meet with the groups periodically.</p>
 <p></p>
