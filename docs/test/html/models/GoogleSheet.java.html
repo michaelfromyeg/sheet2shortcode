@@ -102,12 +102,22 @@ import java.util.TreeMap;
 <span class="nc" id="L102">      courseNumber = -1;</span>
 <span class="nc" id="L103">    }</span>
 
-<span class="nc" id="L105">    final String profName = normalizeProfName(formatString(String.valueOf(row.get(1))));</span>
-<span class="nc" id="L106">    final boolean hasResponded = Boolean.valueOf(String.valueOf(row.get(2)));</span>
-<span class="nc" id="L107">    final String courseChanges = formatString(String.valueOf(row.get(3)));</span>
-<span class="nc" id="L108">    final String profEmail = formatString(String.valueOf(row.get(4)));</span>
+<span class="nc" id="L105">    String courseOption = &quot;&quot;;</span>
+<span class="nc bnc" id="L106" title="All 2 branches missed.">    if (rawCourseValue.length() &gt; 7) {</span>
+<span class="nc" id="L107">      courseOption = rawCourseValue.substring(7, 8);</span>
+<span class="nc bnc" id="L108" title="All 2 branches missed.">      if (courseOption.equals(&quot;.&quot;)) {</span>
+<span class="nc" id="L109">        courseOption = &quot;&quot;;</span>
+      }
+    }
+    
 
-<span class="nc" id="L110">    return new Course(courseName, courseNumber, profName, profEmail, hasResponded, courseChanges);</span>
+<span class="nc" id="L114">    final String profName = normalizeProfName(formatString(String.valueOf(row.get(1))));</span>
+<span class="nc" id="L115">    final boolean hasResponded = Boolean.valueOf(String.valueOf(row.get(2)));</span>
+<span class="nc" id="L116">    final String courseChanges = formatString(String.valueOf(row.get(3)));</span>
+<span class="nc" id="L117">    final String profEmail = formatString(String.valueOf(row.get(4)));</span>
+
+<span class="nc" id="L119">    return new Course(courseName, courseNumber, courseOption, profName,</span>
+        profEmail, hasResponded, courseChanges);
   }
 
   /**
@@ -115,7 +125,7 @@ import java.util.TreeMap;
    * This helps with formatting in the output file.
    */
   private static String formatString(final String s) {
-<span class="nc" id="L118">    return s.replace(&quot;\n&quot;, &quot;&quot;).replace(&quot;\r&quot;, &quot;&quot;);</span>
+<span class="nc" id="L128">    return s.replace(&quot;\n&quot;, &quot;&quot;).replace(&quot;\r&quot;, &quot;&quot;);</span>
   }
 
   /**
@@ -124,13 +134,13 @@ import java.util.TreeMap;
    * @return a string in the form Firstname LastName
    */
   private static String normalizeProfName(String s) {
-<span class="nc bnc" id="L127" title="All 2 branches missed.">    if (!s.contains(&quot;,&quot;)) {</span>
-<span class="nc" id="L128">      return s;</span>
+<span class="nc bnc" id="L137" title="All 2 branches missed.">    if (!s.contains(&quot;,&quot;)) {</span>
+<span class="nc" id="L138">      return s;</span>
     }
     
-<span class="nc" id="L131">    String[] name = s.split(&quot;,&quot;);</span>
-<span class="nc" id="L132">    String formattedName = name[1] + &quot; &quot; + name[0];</span>
-<span class="nc" id="L133">    return formattedName.trim();</span>
+<span class="nc" id="L141">    String[] name = s.split(&quot;,&quot;);</span>
+<span class="nc" id="L142">    String formattedName = name[1] + &quot; &quot; + name[0];</span>
+<span class="nc" id="L143">    return formattedName.trim();</span>
   }
 
   /**
@@ -140,18 +150,18 @@ import java.util.TreeMap;
   public static List&lt;List&lt;Object&gt;&gt; getValues() throws IOException, GeneralSecurityException {
     // Build a new authorized API client service.
     final NetHttpTransport httpTransport = 
-<span class="nc" id="L143">        GoogleNetHttpTransport.newTrustedTransport();</span>
-<span class="nc" id="L144">    final String spreadsheetId = &quot;1ZArW4QuRbLBcfaeQD56OTcaWXRA3yqQ3PbEOc0vkgiI&quot;;</span>
-<span class="nc" id="L145">    final String range = &quot;2021!A4:E&quot;;</span>
-<span class="nc" id="L146">    final Sheets service = new Sheets.Builder(httpTransport, JSON_FACTORY, </span>
-<span class="nc" id="L147">        getCredentials(httpTransport))</span>
-<span class="nc" id="L148">        .setApplicationName(APPLICATION_NAME)</span>
-<span class="nc" id="L149">        .build();</span>
-<span class="nc" id="L150">    final ValueRange response = service.spreadsheets().values()</span>
-<span class="nc" id="L151">            .get(spreadsheetId, range)</span>
-<span class="nc" id="L152">            .execute();</span>
-<span class="nc" id="L153">    final List&lt;List&lt;Object&gt;&gt; values = response.getValues();</span>
-<span class="nc" id="L154">    return values;</span>
+<span class="nc" id="L153">        GoogleNetHttpTransport.newTrustedTransport();</span>
+<span class="nc" id="L154">    final String spreadsheetId = &quot;1ZArW4QuRbLBcfaeQD56OTcaWXRA3yqQ3PbEOc0vkgiI&quot;;</span>
+<span class="nc" id="L155">    final String range = &quot;2021!A4:E&quot;;</span>
+<span class="nc" id="L156">    final Sheets service = new Sheets.Builder(httpTransport, JSON_FACTORY, </span>
+<span class="nc" id="L157">        getCredentials(httpTransport))</span>
+<span class="nc" id="L158">        .setApplicationName(APPLICATION_NAME)</span>
+<span class="nc" id="L159">        .build();</span>
+<span class="nc" id="L160">    final ValueRange response = service.spreadsheets().values()</span>
+<span class="nc" id="L161">            .get(spreadsheetId, range)</span>
+<span class="nc" id="L162">            .execute();</span>
+<span class="nc" id="L163">    final List&lt;List&lt;Object&gt;&gt; values = response.getValues();</span>
+<span class="nc" id="L164">    return values;</span>
   }
 
   /**
@@ -160,31 +170,31 @@ import java.util.TreeMap;
    */
   public static void outputFormattedValues(final Map&lt;String, List&lt;Course&gt;&gt; values) {
     try {
-<span class="nc" id="L163">      final Writer w = new OutputStreamWriter(</span>
+<span class="nc" id="L173">      final Writer w = new OutputStreamWriter(</span>
           new FileOutputStream(&quot;./data/output.txt&quot;), StandardCharsets.UTF_8);
-<span class="nc" id="L165">      w.write(&quot;[tabs]&quot;);</span>
-<span class="nc bnc" id="L166" title="All 2 branches missed.">      for (final Map.Entry&lt;String, List&lt;Course&gt;&gt; value : values.entrySet()) {</span>
-<span class="nc" id="L167">        final String tabWithTitle = String.format(&quot;[tab title=%s]&quot;, value.getKey());</span>
-<span class="nc" id="L168">        w.write(tabWithTitle);</span>
-<span class="nc" id="L169">        w.write(getInnerContent(value.getValue()));</span>
-<span class="nc" id="L170">        w.write(&quot;[/tab]&quot;);</span>
-<span class="nc" id="L171">      }</span>
-<span class="nc" id="L172">      w.write(&quot;[/tabs]&quot;);</span>
-<span class="nc" id="L173">      w.close();</span>
-<span class="nc" id="L174">    } catch (final IOException e) {</span>
-<span class="nc" id="L175">      e.printStackTrace();</span>
-<span class="nc" id="L176">    }</span>
-<span class="nc" id="L177">  }</span>
+<span class="nc" id="L175">      w.write(&quot;[tabs]&quot;);</span>
+<span class="nc bnc" id="L176" title="All 2 branches missed.">      for (final Map.Entry&lt;String, List&lt;Course&gt;&gt; value : values.entrySet()) {</span>
+<span class="nc" id="L177">        final String tabWithTitle = String.format(&quot;[tab title=%s]&quot;, value.getKey());</span>
+<span class="nc" id="L178">        w.write(tabWithTitle);</span>
+<span class="nc" id="L179">        w.write(getInnerContent(value.getValue()));</span>
+<span class="nc" id="L180">        w.write(&quot;[/tab]&quot;);</span>
+<span class="nc" id="L181">      }</span>
+<span class="nc" id="L182">      w.write(&quot;[/tabs]&quot;);</span>
+<span class="nc" id="L183">      w.close();</span>
+<span class="nc" id="L184">    } catch (final IOException e) {</span>
+<span class="nc" id="L185">      e.printStackTrace();</span>
+<span class="nc" id="L186">    }</span>
+<span class="nc" id="L187">  }</span>
 
   private static String getInnerContent(final List&lt;Course&gt; courses) {
-<span class="nc" id="L180">    String result = &quot;&quot;;</span>
-<span class="nc bnc" id="L181" title="All 2 branches missed.">    for (final Course c : courses) {</span>
-<span class="nc bnc" id="L182" title="All 4 branches missed.">      if (c.hasChanges() &amp;&amp; c.hasCourseNumber()) {</span>
-<span class="nc" id="L183">        result += c.toOutput();</span>
-<span class="nc" id="L184">        result += &quot;&lt;p&gt;&lt;/p&gt;\n&quot;;</span>
+<span class="nc" id="L190">    String result = &quot;&quot;;</span>
+<span class="nc bnc" id="L191" title="All 2 branches missed.">    for (final Course c : courses) {</span>
+<span class="nc bnc" id="L192" title="All 4 branches missed.">      if (c.hasChanges() &amp;&amp; c.hasCourseNumber()) {</span>
+<span class="nc" id="L193">        result += c.toOutput();</span>
+<span class="nc" id="L194">        result += &quot;&lt;p&gt;&lt;/p&gt;\n&quot;;</span>
       }
-<span class="nc" id="L186">    }</span>
-<span class="nc" id="L187">    return result;</span>
+<span class="nc" id="L196">    }</span>
+<span class="nc" id="L197">    return result;</span>
   }
 
   /**
@@ -196,21 +206,21 @@ import java.util.TreeMap;
   public static Credential getCredentials(
       final NetHttpTransport httpTransport) throws IOException {
     // Load client secrets.
-<span class="nc" id="L199">    final InputStream in = GoogleSheet.class.getResourceAsStream(CREDENTIALS_FILE_PATH);</span>
-<span class="nc bnc" id="L200" title="All 2 branches missed.">    if (in == null) {</span>
-<span class="nc" id="L201">      throw new FileNotFoundException(&quot;Resource not found: &quot; + CREDENTIALS_FILE_PATH);</span>
+<span class="nc" id="L209">    final InputStream in = GoogleSheet.class.getResourceAsStream(CREDENTIALS_FILE_PATH);</span>
+<span class="nc bnc" id="L210" title="All 2 branches missed.">    if (in == null) {</span>
+<span class="nc" id="L211">      throw new FileNotFoundException(&quot;Resource not found: &quot; + CREDENTIALS_FILE_PATH);</span>
     }
-<span class="nc" id="L203">    final GoogleClientSecrets clientSecrets = GoogleClientSecrets.load(</span>
+<span class="nc" id="L213">    final GoogleClientSecrets clientSecrets = GoogleClientSecrets.load(</span>
         JSON_FACTORY, new InputStreamReader(in));
 
     // Build flow and trigger user authorization request.
-<span class="nc" id="L207">    final GoogleAuthorizationCodeFlow flow = new GoogleAuthorizationCodeFlow.Builder(</span>
+<span class="nc" id="L217">    final GoogleAuthorizationCodeFlow flow = new GoogleAuthorizationCodeFlow.Builder(</span>
             httpTransport, JSON_FACTORY, clientSecrets, SCOPES)
-<span class="nc" id="L209">            .setDataStoreFactory(new FileDataStoreFactory(new java.io.File(TOKENS_DIRECTORY_PATH)))</span>
-<span class="nc" id="L210">            .setAccessType(&quot;offline&quot;)</span>
-<span class="nc" id="L211">            .build();</span>
-<span class="nc" id="L212">    final LocalServerReceiver receiver = new LocalServerReceiver.Builder().setPort(8888).build();</span>
-<span class="nc" id="L213">    return new AuthorizationCodeInstalledApp(flow, receiver).authorize(&quot;user&quot;);</span>
+<span class="nc" id="L219">            .setDataStoreFactory(new FileDataStoreFactory(new java.io.File(TOKENS_DIRECTORY_PATH)))</span>
+<span class="nc" id="L220">            .setAccessType(&quot;offline&quot;)</span>
+<span class="nc" id="L221">            .build();</span>
+<span class="nc" id="L222">    final LocalServerReceiver receiver = new LocalServerReceiver.Builder().setPort(8888).build();</span>
+<span class="nc" id="L223">    return new AuthorizationCodeInstalledApp(flow, receiver).authorize(&quot;user&quot;);</span>
   }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

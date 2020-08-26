@@ -2,6 +2,10 @@
 <i>Sathish Gopalakrishnan</i>
 This course will involve a mix of asynchronous activities and interactive sessions; synchronous activities will be repeated at different times to accompany international students. There will be short overview videos to accompany readings. A variety of new tools are being adopted to enhance the remote learning experience.</p>
 <p></p>
+<p><b>CPEN 223</b>
+<i>Farshid Agharebparast</i>
+A mix of synchronous and asynchronous learning will be used in this course. The synchronous activities will be via tools such as Collaborate Ultra or Zoom. Canvas is used as the course management platform and its tools as well as other tools (such as GitHub) will be used to facilitate remote learning.</p>
+<p></p>
 <p><b>CPEN 281</b>
 <i>Estella Hongxing Qi</i>
 This technical communication course is already web-oriented, blending synchronous and asynchronous leaning in a flipped classroom. The instructional material is posted on Canvas for students to study and review the course content; Discussion Board is used for peer-review of assignment drafts; the revised assignments are submitted to Assignment Dropbox for grading. The class meet via Collaborate Ultra for lectures, activities, discussions, and presentations. Office hours are also held via Collaborate Ultra for questions and answers. The final exam is administered using Proctorio via Canvas.</p>
@@ -18,11 +22,11 @@ Lectures will be held via video conferencing tools such as Collaborate Ultra or 
 <i>Paul Davies</i>
 Labs will be run as close as possible as per usual during Winter 2020. All dates, goals and objectives will be described on Canvas. Labs will be submitted via Canvas and graded by TAs. This course uses Visual Studio and Visual Paradigm UML tools which are free to download and use. There will also be holding weekly meetings on-line, similar to a drop in tutorial if you have questions.</p>
 <p></p>
-<p><b>CPEN 400</b>
+<p><b>CPEN 400A</b>
 <i>Karthik Pattabiraman</i>
 This course will rely on GitHub for remote collaboration, and likewise there will be lots of hands-on work, with the end goal of building a complete modern web application. Zoom will likely be used for lecture delivery, and lectures will be recorded. Class participation is essential for this course.</p>
 <p></p>
-<p><b>CPEN 400</b>
+<p><b>CPEN 400D</b>
 <i>Brad Quinton</i>
 In the coming term, this course will extend many of the remote friendly practices that were already a part of the course in the past. There will be 6 assignments (roughly one every two weeks). These assignments were already designed to be completed completely remotely. By leveraging JupyterHub as a backend, the assignments can be accessed, completed, tested and submitted via any web browser. As in the past, all lectures will be recorded and posted. This term live lectures will be presented using Zoom instead of in-person and will feature interactive, real-time quizzes (for fun, not for marks...). Finally, TAs will host weekly "office hours" sessions via Zoom to help with assignments and clarifications of any lecture material.</p>
 <p></p>
@@ -56,7 +60,7 @@ Many diverse companies were increasingly moving to remote collaboration on proje
 <p></p>
 [/tab][tab title=ELEC]<p><b>ELEC 201</b>
 <i>Jesus Calvino-Fraga</i>
-Lectures and exams will be conducted remotely.  Laboratories will be remote also, which is a much bigger challenge.  For this reason we are preparing a couple of lab kits that will allow you to do all the required experiments at home.  One kit contains all the needed components, such as resistors, capacitors, transistors, etc. as well as tools, bread boards, and wires. The other kit includes a multi-meter, as well as an USB oscilloscope and a signal generator designed and built specifically for the course.  You will be notified soon on how to buy the kits and get them delivered.</p>
+The course lectures will be given remotely through Collaborate Ultra. Those lectures will be recorded for the convenience of students in different time zones. The laboratory main instruments, along with a toolbox of electronic components, soldering rod, prototyping board will be taken home by the student. This will empower students to complete all the lab experiments associated with the course at home, under the supervision of TAs in a Collaborate Ultra session.</p>
 <p></p>
 <p><b>ELEC 204</b>
 <i>Shahriar Mirabbasi</i>
@@ -85,6 +89,10 @@ The course has a "flipped classroom" format with readings from the text book, po
 <p><b>ELEC 342</b>
 <i>Juri Jatskevich</i>
 The course will be delivered with possible combinations of asynchronous and synchronous ways of delivering lectures, labs, and tutorials. The assignments will be based on the course textbook problems. The course material will be distributed through Canvas. The quizzes and exams will be conducted through Canvas using the Proctorio system for ensuring the identity of the student taking the test and invigilation. Therefore, the students are required to have a computer with a webcam. The students are expected to use some computing programs, e.g. Matlab and Simulink for working on their assignments and laboratory reports.</p>
+<p></p>
+<p><b>ELEC 344</b>
+<i>Ignacio Galiano Zurbriggen</i>
+This course will be running live lecture sessions in which students will be actively involved by running interactive activities with the course instructor and among themselves. The dynamic two-hour weekly lectures will be recorded, and course content and activities will be developed and discussed live. There will be an asynchronous component students will be able to complete at their own pace, including short and frequent quizzes. Labs will be based on interactive videos including in-video quizzes, and aided with simulations to enhance student interaction and understanding of the topics. Lab sessions and tutorials will be conducted remotely, in which TAs will guide students through the activities of the day.</p>
 <p></p>
 <p><b>ELEC 401</b>
 <i>Shahriar Mirabbasi</i>
@@ -174,11 +182,11 @@ Lectures will be recorded and in a flipped classroom style. No software or hardw
 <i>Vincent Wong</i>
 Lectures will be held via video conferencing tools such as Collaborate Ultra or Zoom. Slides will be posted onto Canvas. Class and office hours schedule as well as further details will be communicated via Canvas, when the semester begins.</p>
 <p></p>
-<p><b>EECE 571</b>
+<p><b>EECE 571I</b>
 <i>Sathish Gopalakrishnan</i>
 This course will involve a mix of asynchronous activies and interactive sessions; synchronous activities will be repeated at different times to accompany international students. There will be short overview videos to accompany readings. A variety of new tools are being adopted to enhance the remote learning experience.</p>
 <p></p>
-<p><b>EECE 571</b>
+<p><b>EECE 571P</b>
 <i>Karthik Pattabiraman</i>
 This is a seminar-styled research oriented course. The students will read papers every week and will submit reviews which will be graded. The class will consist of 1-2 students presenting the papers for that week followed by discussion - this will be done via Zoom. Finally, there's a cumulative group project, which forms a substantial portion of the grade - this will be done online as well with clear deliverables in the form of reports, source code, and more. The instructor will meet with the groups periodically.</p>
 <p></p>

@@ -3,6 +3,7 @@
 public class Course {
   private String courseName;
   private int courseNumber;
+  private String courseOption; // a letter, A-Z that reflects a course variant, ex., CPEN400'D'
   private boolean isGrad;
 
   private String profName;
@@ -15,71 +16,75 @@ public class Course {
    * Constructs a course based on a course name and number (ex., MATH 101)
    * Defaults profName and profEmail to blank, hasResponded to false, courseChanges to blank
    */
-<span class="fc" id="L18">  public Course(String courseName, int courseNumber) {</span>
-<span class="fc" id="L19">    this.courseName = courseName;</span>
-<span class="fc" id="L20">    this.courseNumber = courseNumber;</span>
-<span class="fc" id="L21">    this.profName = &quot;&quot;;</span>
-<span class="fc" id="L22">    this.profEmail = &quot;&quot;;</span>
-<span class="fc" id="L23">    this.hasResponded = false;</span>
-<span class="fc" id="L24">    this.courseChanges = &quot;&quot;;</span>
-<span class="fc" id="L25">    constructIsGrad();</span>
-<span class="fc" id="L26">  }</span>
+<span class="fc" id="L19">  public Course(String courseName, int courseNumber, String courseOption) {</span>
+<span class="fc" id="L20">    this.courseName = courseName;</span>
+<span class="fc" id="L21">    this.courseNumber = courseNumber;</span>
+<span class="fc" id="L22">    this.courseOption = courseOption;</span>
+<span class="fc" id="L23">    this.profName = &quot;&quot;;</span>
+<span class="fc" id="L24">    this.profEmail = &quot;&quot;;</span>
+<span class="fc" id="L25">    this.hasResponded = false;</span>
+<span class="fc" id="L26">    this.courseChanges = &quot;&quot;;</span>
+<span class="fc" id="L27">    constructIsGrad();</span>
+<span class="fc" id="L28">  }</span>
 
   /**
    * Constructs a course based on a course name and number (ex., MATH 101), 
    * along with profName and profEmail
    * Defaults hasResponded to false, courseChanges to blank
    */
-<span class="fc" id="L33">  public Course(String courseName, int courseNumber, String profName, String profEmail) {</span>
-<span class="fc" id="L34">    this.courseName = courseName;</span>
-<span class="fc" id="L35">    this.courseNumber = courseNumber;</span>
-<span class="fc" id="L36">    this.profName = profName;</span>
-<span class="fc" id="L37">    this.profEmail = profEmail;</span>
-<span class="fc" id="L38">    this.hasResponded = false;</span>
-<span class="fc" id="L39">    this.courseChanges = &quot;&quot;;</span>
-<span class="fc" id="L40">    constructIsGrad();</span>
-<span class="fc" id="L41">  }</span>
+  public Course(String courseName, int courseNumber, String courseOption,
+<span class="fc" id="L36">      String profName, String profEmail) {</span>
+<span class="fc" id="L37">    this.courseName = courseName;</span>
+<span class="fc" id="L38">    this.courseNumber = courseNumber;</span>
+<span class="fc" id="L39">    this.courseOption = courseOption;</span>
+<span class="fc" id="L40">    this.profName = profName;</span>
+<span class="fc" id="L41">    this.profEmail = profEmail;</span>
+<span class="fc" id="L42">    this.hasResponded = false;</span>
+<span class="fc" id="L43">    this.courseChanges = &quot;&quot;;</span>
+<span class="fc" id="L44">    constructIsGrad();</span>
+<span class="fc" id="L45">  }</span>
 
   /**
    * Construct a course based on all fields given.
    */
-  public Course(String courseName, int courseNumber, String profName, 
-<span class="fc" id="L47">      String profEmail, boolean hasResponded, String courseChanges) {</span>
-<span class="fc" id="L48">    this.courseName = courseName;</span>
-<span class="fc" id="L49">    this.courseNumber = courseNumber;</span>
-<span class="fc" id="L50">    this.profName = profName;</span>
-<span class="fc" id="L51">    this.profEmail = profEmail;</span>
-<span class="fc" id="L52">    this.hasResponded = hasResponded;</span>
-<span class="fc" id="L53">    this.courseChanges = courseChanges;</span>
-<span class="fc" id="L54">    constructIsGrad();</span>
-<span class="fc" id="L55">  }</span>
+  public Course(String courseName, int courseNumber, String courseOption, String profName, 
+<span class="fc" id="L51">      String profEmail, boolean hasResponded, String courseChanges) {</span>
+<span class="fc" id="L52">    this.courseName = courseName;</span>
+<span class="fc" id="L53">    this.courseNumber = courseNumber;</span>
+<span class="fc" id="L54">    this.courseOption = courseOption;</span>
+<span class="fc" id="L55">    this.profName = profName;</span>
+<span class="fc" id="L56">    this.profEmail = profEmail;</span>
+<span class="fc" id="L57">    this.hasResponded = hasResponded;</span>
+<span class="fc" id="L58">    this.courseChanges = courseChanges;</span>
+<span class="fc" id="L59">    constructIsGrad();</span>
+<span class="fc" id="L60">  }</span>
 
   /**
    * If courseNumber &gt; 500, sets isGrad to true.
    * Only called on constructor.
    */
   private void constructIsGrad() {
-<span class="fc bfc" id="L62" title="All 2 branches covered.">    if (this.courseNumber &gt; 500) {</span>
-<span class="fc" id="L63">      this.isGrad = true;</span>
+<span class="fc bfc" id="L67" title="All 2 branches covered.">    if (this.courseNumber &gt; 500) {</span>
+<span class="fc" id="L68">      this.isGrad = true;</span>
     } else {
-<span class="fc" id="L65">      this.isGrad = false;</span>
+<span class="fc" id="L70">      this.isGrad = false;</span>
     }
-<span class="fc" id="L67">  }</span>
+<span class="fc" id="L72">  }</span>
 
   public String getProfName() {
-<span class="fc" id="L70">    return this.profName;</span>
+<span class="fc" id="L75">    return this.profName;</span>
   }
 
   public String getProfEmail() {
-<span class="fc" id="L74">    return this.profEmail;</span>
+<span class="fc" id="L79">    return this.profEmail;</span>
   }
 
   public String getCourseName() {
-<span class="nc" id="L78">    return this.courseName;</span>
+<span class="nc" id="L83">    return this.courseName;</span>
   }
 
   public int getCourseNumber() {
-<span class="nc" id="L82">    return this.courseNumber;</span>
+<span class="nc" id="L87">    return this.courseNumber;</span>
   }
 
   /**
@@ -87,10 +92,10 @@ public class Course {
    * @return this.courseChanges if this.hasResponded, else &quot;No form response&quot;
    */
   public String getResponse() {
-<span class="nc bnc" id="L90" title="All 2 branches missed.">    if (!this.hasResponded) {</span>
-<span class="nc" id="L91">      return &quot;No form response&quot;;</span>
+<span class="nc bnc" id="L95" title="All 2 branches missed.">    if (!this.hasResponded) {</span>
+<span class="nc" id="L96">      return &quot;No form response&quot;;</span>
     }
-<span class="nc" id="L93">    return this.courseChanges;</span>
+<span class="nc" id="L98">    return this.courseChanges;</span>
   }
 
   /**
@@ -98,7 +103,7 @@ public class Course {
    * @return this.isGrad directly.
    */
   public boolean isGrad() {
-<span class="fc" id="L101">    return this.isGrad;</span>
+<span class="fc" id="L106">    return this.isGrad;</span>
   }
 
   /**
@@ -106,9 +111,9 @@ public class Course {
    * @return is prof has responded to survey, and course changes do not contain &quot;TBD&quot;
    */
   public boolean hasChanges() {
-<span class="nc bnc" id="L109" title="All 2 branches missed.">    return this.hasResponded </span>
-<span class="nc bnc" id="L110" title="All 2 branches missed.">        &amp;&amp; !this.courseChanges.contains(&quot;TBD&quot;) </span>
-<span class="nc bnc" id="L111" title="All 2 branches missed.">        &amp;&amp; !this.courseChanges.equals(&quot;\&quot;&quot;);</span>
+<span class="nc bnc" id="L114" title="All 2 branches missed.">    return this.hasResponded </span>
+<span class="nc bnc" id="L115" title="All 2 branches missed.">        &amp;&amp; !this.courseChanges.contains(&quot;TBD&quot;) </span>
+<span class="nc bnc" id="L116" title="All 2 branches missed.">        &amp;&amp; !this.courseChanges.equals(&quot;\&quot;&quot;);</span>
   }
 
   /**
@@ -116,7 +121,7 @@ public class Course {
    * @return true if this.courseNumber &gt; 0.
    */
   public boolean hasCourseNumber() {
-<span class="nc bnc" id="L119" title="All 2 branches missed.">    return this.courseNumber &gt; 0;</span>
+<span class="nc bnc" id="L124" title="All 2 branches missed.">    return this.courseNumber &gt; 0;</span>
   }
 
   /**
@@ -124,23 +129,40 @@ public class Course {
    * @return the formatting string for the shortcode
    */
   public String toOutput() {
-<span class="nc" id="L127">    String result = &quot;&quot;;</span>
-<span class="nc" id="L128">    result += &quot;&lt;p&gt;&quot;;</span>
-<span class="nc" id="L129">    result += String.format(&quot;&lt;b&gt;%s %d&lt;/b&gt;\n&quot;, this.courseName, this.courseNumber);</span>
-<span class="nc" id="L130">    result += String.format(&quot;&lt;i&gt;%s&lt;/i&gt;\n&quot;, this.profName);</span>
-<span class="nc bnc" id="L131" title="All 2 branches missed.">    if (this.courseChanges.contains(this.courseName)) {</span>
-<span class="nc" id="L132">      System.out.println(String.format(&quot;Flag: %s contains its name in its description!&quot;, </span>
-          this.courseName));
-    }
-<span class="nc" id="L135">    result += this.courseChanges + &quot;&lt;/p&gt;\n&quot;;</span>
-<span class="nc" id="L136">    return result;</span>
+<span class="nc" id="L132">    checkCourseChangesQuality(this.courseName + &quot; &quot; + this.courseNumber + this.courseOption,</span>
+        this.courseChanges);
+<span class="nc" id="L134">    String result = &quot;&quot;;</span>
+<span class="nc" id="L135">    result += &quot;&lt;p&gt;&quot;;</span>
+<span class="nc" id="L136">    result += String.format(&quot;&lt;b&gt;%s %d%s&lt;/b&gt;\n&quot;, this.courseName, this.courseNumber,</span>
+        this.courseOption);
+<span class="nc" id="L138">    result += String.format(&quot;&lt;i&gt;%s&lt;/i&gt;\n&quot;, this.profName);</span>
+<span class="nc" id="L139">    result += this.courseChanges + &quot;&lt;/p&gt;\n&quot;;</span>
+<span class="nc" id="L140">    return result;</span>
   }
+
+  private void checkCourseChangesQuality(String courseCode, String courseChanges) {
+
+    // Check course name is not within description
+<span class="nc bnc" id="L146" title="All 2 branches missed.">    if (courseChanges.contains(courseCode)) {</span>
+<span class="nc" id="L147">      System.out.println(String.format(&quot;Flag: %s contains its name in its description!&quot;, </span>
+          courseCode));
+    }
+
+    // Filter certain strings from wording (remote learning is preferred)
+<span class="nc" id="L152">    final String[] badStrings = {&quot;online&quot;, &quot;digital&quot;, &quot;virtual&quot;};</span>
+<span class="nc bnc" id="L153" title="All 2 branches missed.">    for (String bs : badStrings) {</span>
+<span class="nc bnc" id="L154" title="All 2 branches missed.">      if (courseChanges.contains(bs)) {</span>
+<span class="nc" id="L155">        System.out.println(String.format(&quot;Flag: %s contains %s in its description!&quot;, </span>
+            courseCode, bs));
+      }
+    }
+<span class="nc" id="L159">  }</span>
 
   @Override 
   public String toString() {
-<span class="nc" id="L141">    String message = String.format(&quot;%s %d taught by %s &lt;%s&gt;&quot;, </span>
-<span class="nc" id="L142">        this.courseName, this.courseNumber, this.profName, this.profEmail);</span>
-<span class="nc" id="L143">    return message; </span>
+<span class="nc" id="L163">    String message = String.format(&quot;%s %d%s taught by %s &lt;%s&gt;&quot;, </span>
+<span class="nc" id="L164">        this.courseName, this.courseNumber, this.courseOption, this.profName, this.profEmail);</span>
+<span class="nc" id="L165">    return message; </span>
   }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

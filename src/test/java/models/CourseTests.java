@@ -17,9 +17,10 @@ class CourseTests {
 
   @BeforeEach
   void setup() {
-    c1 = new Course("MATH", 101);
-    c2 = new Course("ECON", 504, "Khan", "khan@ubc.ca");
-    c3 = new Course("PHYS", 200, "Bates", "bates@ubc.ca", true, "The course is now async only!");
+    c1 = new Course("MATH", 101, "");
+    c2 = new Course("ECON", 504, "", "Khan", "khan@ubc.ca");
+    c3 = new Course("PHYS", 200, "", "Bates", 
+    "bates@ubc.ca", true, "The course is now async only!");
   }
 
   @Test
